@@ -1,31 +1,34 @@
--- General
-vim.opt.background = "dark"
-vim.cmd('colorscheme gruvbox')
-vim.opt.completeopt = "menu,menuone,noselect"
-vim.opt.cursorline = true
-vim.opt.fileencoding = "utf-8"
-vim.opt.foldenable = true
-vim.opt.foldlevelstart = 99
-vim.opt.foldmethod = "indent"
-vim.opt.hidden = true
-vim.opt.number = true
-vim.opt.relativenumber = true
-vim.opt.showmode = true
-vim.opt.splitbelow = true
-vim.opt.splitright = true
-vim.opt.termguicolors = true
-vim.opt.wildmenu = true
-vim.opt.wildmode = "longest,list,full"
-vim.opt.wrap = false
+local set = vim.opt
+local cmd = vim.cmd
 
--- Indentation
-vim.opt.expandtab = true
-vim.opt.shiftwidth = 2
-vim.opt.smarttab = true
-vim.opt.tabstop = 2
+-- General
+set.background = "dark"
+cmd('colorscheme gruvbox')
+set.completeopt = "menu,menuone,noselect"
+set.cursorline = true
+set.fileencoding = "utf-8"
+set.foldenable = true
+set.foldlevelstart = 99
+set.foldmethod = "indent"
+set.hidden = true
+set.number = true
+set.relativenumber = true
+set.showmode = true
+set.splitbelow = true
+set.splitright = true
+set.termguicolors = true
+set.wildmenu = true
+set.wildmode = "longest,list,full"
+set.wrap = false
+
+-- Tab behavior
+set.expandtab = true
+set.shiftwidth = 2
+set.smarttab = true
+set.tabstop = 2
 
 -- Search
-vim.opt.hlsearch = true
-vim.opt.ignorecase = true
-vim.opt.incsearch = true
-vim.opt.smartcase = true
+set.hlsearch = true
+set.ignorecase = true
+set.incsearch = true
+set.smartcase = true
