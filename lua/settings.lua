@@ -20,9 +20,9 @@ vim.opt.wrap = false
 
 -- Indentation
 vim.opt.expandtab = true
-vim.opt.shiftwidth = 4
+vim.opt.shiftwidth = 2
 vim.opt.smarttab = true
-vim.opt.tabstop = 4
+vim.opt.tabstop = 2
 
 -- Search
 vim.opt.hlsearch = true
