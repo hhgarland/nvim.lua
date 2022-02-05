@@ -2,8 +2,6 @@ local set = vim.opt
 local cmd = vim.cmd
 
 -- General
-set.background = "dark"
-cmd('colorscheme gruvbox')
 set.completeopt = "menu,menuone,noselect"
 set.cursorline = true
 set.fileencoding = "utf-8"
@@ -16,7 +14,6 @@ set.relativenumber = true
 set.showmode = true
 set.splitbelow = true
 set.splitright = true
-set.termguicolors = true
 set.wildmenu = true
 set.wildmode = "longest,list,full"
 set.wrap = false
