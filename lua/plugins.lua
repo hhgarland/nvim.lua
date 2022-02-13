@@ -68,6 +68,12 @@ return packer.startup(function(use)
 
   -- Utilities
   use 'romgrk/barbar.nvim'
+  use {
+    'numToStr/Comment.nvim',
+    config = function()
+        require('Comment').setup()
+    end
+  }
   use 'tpope/vim-fugitive'
   use 'windwp/nvim-autopairs'
 

@@ -5,6 +5,7 @@ require('settings')
 
 -- plugin configuration
 require('colorscheme-config')
+require('comment-config')
 require('gitsigns-config')
 require('lsp-config')
 require('lualine-config')
