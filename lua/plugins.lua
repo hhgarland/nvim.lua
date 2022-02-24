@@ -68,6 +68,7 @@ return packer.startup(function(use)
 
   -- Utilities
   use 'romgrk/barbar.nvim'
+  use 'RRethy/nvim-align'
   use {
     'numToStr/Comment.nvim',
     config = function()
