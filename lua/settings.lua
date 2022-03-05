@@ -3,7 +3,7 @@ local cmd = vim.cmd
 
 -- General
 set.completeopt = "menu,menuone,noselect"
-set.cursorline = true
+set.cursorline = false
 set.fileencoding = "utf-8"
 set.foldenable = true
 set.foldlevelstart = 99

@@ -95,6 +95,8 @@ use {
 }
 
   -- Utilities
+  use 'dhruvasagar/vim-table-mode' -- quickly format markdown/vimwiki tables
+  use 'norcalli/nvim-colorizer.lua'
   use 'RRethy/nvim-align'
   use {
     'numToStr/Comment.nvim',
@@ -104,6 +106,9 @@ use {
   }
   use 'tpope/vim-fugitive'
   use 'windwp/nvim-autopairs'
+
+  -- Vimwiki
+  use 'vimwiki/vimwiki'
 
   -- Automatically set up your configuration after cloning packer.nvim
   -- Put this at the end after all plugins
