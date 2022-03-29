@@ -105,6 +105,7 @@ use {
     end
   }
   use 'tpope/vim-fugitive'
+  use 'tpope/vim-surround'
   use 'windwp/nvim-autopairs'
 
   -- Automatically set up your configuration after cloning packer.nvim
