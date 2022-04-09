@@ -41,8 +41,3 @@ for _, lsp in pairs(servers) do
     }
   }
 end
-
--- Native LSP Configuration
---require'lspconfig'.pyright.setup{}
---require'lspconfig'.ccls.setup{}
-
