@@ -1,9 +1,9 @@
 -- basic stuff
 require('keymappings')
-require('plugins')
 require('settings')
 
 -- plugin configuration
+require('plugins')
 require('colorscheme-config')
 require('comment-config')
 require('gitsigns-config')
