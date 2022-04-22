@@ -58,6 +58,7 @@ return packer.startup(function(use)
   use 'gruvbox-community/gruvbox'
   use 'lewis6991/gitsigns.nvim'
   use 'nvim-lualine/lualine.nvim'
+  use 'lukas-reineke/indent-blankline.nvim'
   use {
     'kyazdani42/nvim-tree.lua',
     requires = {
