@@ -96,7 +96,7 @@ use {
 }
 
   -- Utilities
-  use 'dhruvasagar/vim-table-mode' -- quickly format markdown/vimwiki tables
+  use 'dhruvasagar/vim-table-mode'
   use 'norcalli/nvim-colorizer.lua'
   use 'RRethy/nvim-align'
   use {
