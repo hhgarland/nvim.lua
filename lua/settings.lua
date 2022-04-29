@@ -9,6 +9,7 @@ set.foldenable = true
 set.foldlevelstart = 99
 set.foldmethod = "indent"
 set.hidden = true
+set.laststatus = 3
 set.number = true
 set.relativenumber = true
 set.showmode = true
